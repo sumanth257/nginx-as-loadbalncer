@@ -1,4 +1,4 @@
-# nginx-as-loadbalncer
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/972104f8-0a7f-4f24-932d-0a2423a996fc" /># nginx-as-loadbalncer
 
 # 🚀 NGINX Load Balancer with Node.js Servers
 
@@ -92,7 +92,7 @@ Response from Server 2
 
 **📊 How It Works**       
 
-        Client Browse
+         Client Browser
                │
                ▼
        ┌────────────────┐
@@ -106,6 +106,7 @@ Response from Server 2
  │   Port 3001│  │   Port 3002│
  └────────────┘  └────────────┘
 
+
 **NGINX acts as a reverse proxy
 
 Requests are forwarded to backend servers
@@ -113,9 +114,11 @@ Requests are forwarded to backend servers
 Default algorithm: Round Robin
 **
 Improves scalability and availability
+
+
 **🧮 Load Balancing Algorithms in NGINX**
 **Algorithm	Behavior:**
-round-robin	Default : rotates through all backends equally
-least_conn	: Sends traffic to the backend with the fewest active connections
-ip_hash :	Uses client IP to consistently route requests to the same backend
+ROUND ROBIN  : Default rotates through all backends equally
+LEAST_CONN 	: Sends traffic to the backend with the fewest active connections
+IP_HASH     :	Uses client IP to consistently route requests to the same backend
 
