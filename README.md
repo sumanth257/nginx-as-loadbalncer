@@ -22,15 +22,15 @@ NGINX distributes incoming traffic across two backend servers using **round-robi
 
 ### **server1.js**
 
-require('http').createServer((req, res) => {
-  res.end('Response from Server 1');
-}).listen(3001);
+                      require('http').createServer((req, res) => {
+                             res.end('Response from Server 1');
+                            }).listen(3001);
 
 
 ### **server2.js**
-require('http').createServer((req, res) => {
-  res.end('Response from Server 2');
-}).listen(3002);
+                      require('http').createServer((req, res) => {
+                              res.end('Response from Server 2');
+                            }).listen(3002);
 
 
 **⚙️ Prerequisites**
